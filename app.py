@@ -11,7 +11,7 @@ def extract():
 		print(source["name"])
 		feed = feedparser.parse(source["url"])
 		for entry in feed["entries"]:
-			print(entry["title"])
+			print(json.dumps(entry, indent=4, sort_keys=True, default=str))
 
 def cron():
 	config = get_config()
