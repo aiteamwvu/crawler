@@ -87,6 +87,6 @@ class Crawler:
 			time.sleep(1)
 
 crawler = Crawler()
-#crawler.extract()
-crawler.extract_and_save()
+crawler.extract()
+#crawler.extract_and_save()
 #crawler.start_cron()
