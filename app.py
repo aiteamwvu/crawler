@@ -4,6 +4,7 @@ from neo4j.v1 import GraphDatabase, basic_auth
 class Crawler:
 	conn_mongo = None
 	conn_neo4j = None
+	debug = True
 
 	def get_neo4j(self):
 		if self.conn_neo4j:
@@ -24,7 +25,8 @@ class Crawler:
 				article = json.loads(json.dumps(entry, default=str))
 				article.update(source)
 				article["_id"] = article["link"]
-				#print(json.dumps(article, indent=4, sort_keys=True))
+				if self.debug:
+					print(json.dumps(article, indent=4, sort_keys=True))
 				if callback:
 					callback(article, source["source_table"])
 
