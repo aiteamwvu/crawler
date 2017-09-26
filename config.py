@@ -1,7 +1,7 @@
 time = 1
 neo4j_host = "bolt://localhost:7687"
 neo4j_user = "neo4j"
-neo4j_pass = "password"
+neo4j_pass = "edupassword"
 mongo_db = "test"
 sources = [{
     "source_table": "Article",
