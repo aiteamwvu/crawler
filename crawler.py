@@ -1,4 +1,5 @@
 import json, time, feedparser, schedule, config, threading, pymongo
+from dateutil.parser import parse
 from neo4j.v1 import GraphDatabase, basic_auth
 
 class Crawler:
@@ -25,6 +26,10 @@ class Crawler:
 				article = json.loads(json.dumps(entry, default=str))
 				article.update(source)
 				article["_id"] = article["link"]
+				if "published" in article:
+					article["timestamp"] = int(time.mktime(parse(article["published"]).timetuple()))
+				elif "updated" in article:
+					article["timestamp"] = int(time.mktime(parse(article["updated"]).timetuple()))
 				if self.debug:
 					print(json.dumps(article, indent=4, sort_keys=True))
 				if callback:
@@ -87,6 +92,6 @@ class Crawler:
 			time.sleep(1)
 
 crawler = Crawler()
-crawler.extract()
-#crawler.extract_and_save()
-#crawler.start_cron()
+#crawler.extract()
+crawler.extract_and_save()
+crawler.start_cron()
