@@ -87,4 +87,10 @@ sources = [{
 	"source_url": "http://lifehacker.com/rss",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Android Central",
+	"source_url": "http://feeds2.feedburner.com/androidcentral",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
