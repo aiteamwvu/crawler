@@ -93,4 +93,10 @@ sources = [{
 	"source_url": "http://feeds2.feedburner.com/androidcentral",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "9 to 5 Google",
+	"source_url": "https://9to5google.com/feed/",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
