@@ -111,4 +111,10 @@ sources = [{
 	"source_url": "http://www.zdnet.com/videos/rss.xml",
 	"source_content": "videos",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Artificial Intelligence",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/",
+	"source_content": "text",
+	"source_categories": ["Artificial Intelligence"]
 }]
