@@ -81,4 +81,10 @@ sources = [{
 	"source_url": "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Life Hacker",
+	"source_url": "http://lifehacker.com/rss",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
