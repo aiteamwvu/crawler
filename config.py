@@ -63,4 +63,10 @@ sources = [{
 	"source_url": "http://www.techadvisor.co.uk/feature/rss",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "WSJ Tech",
+	"source_url": "http://www.wsj.com/xml/rss/3_7455.xml",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
