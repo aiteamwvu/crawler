@@ -35,6 +35,12 @@ sources = [{
 	"source_categories": ["general"]
 }, {
     "source_table": "Article",
+	"source_name": "CNET Gadgets",
+	"source_url": "https://www.cnet.com/rss/most-popular-products/",
+	"source_content": "text",
+	"source_categories": ["gadgets"]
+}, {
+    "source_table": "Article",
 	"source_name": "IEEE Spectrum Videos",
 	"source_url": "https://spectrum.ieee.org/rss/videos",
 	"source_content": "video",
@@ -50,13 +56,13 @@ sources = [{
 	"source_name": "Tech Radar Internet",
 	"source_url": "http://www.techradar.com/rss/news/internet",
 	"source_content": "text",
-	"source_categories": ["Internet"]
+	"source_categories": ["internet"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Mobile Computing",
 	"source_url": "http://www.techradar.com/rss/news/mobile-computing",
 	"source_content": "text",
-	"source_categories": ["Mobile Computing"]
+	"source_categories": ["mobile"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Advisor",
@@ -116,13 +122,13 @@ sources = [{
 	"source_name": "Tech Republic Artificial Intelligence",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/",
 	"source_content": "text",
-	"source_categories": ["Artificial Intelligence"]
+	"source_categories": ["ai"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Republic Big Data",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/big-data/",
 	"source_content": "text",
-	"source_categories": ["Big Data"]
+	"source_categories": ["data"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Republic Digital Transformation",
@@ -134,23 +140,71 @@ sources = [{
 	"source_name": "Tech Republic E-Commerce",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/e-commerce/",
 	"source_content": "text",
-	"source_categories": ["Digital E-Commerce"]
+	"source_categories": ["ecommerce"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Republic Internet of Things",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/internet-of-things/",
 	"source_content": "text",
-	"source_categories": ["Digital Internet of Things"]
+	"source_categories": ["iot"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Republic Virtualization",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/virtualization/",
 	"source_content": "text",
-	"source_categories": ["Digital Virtualization"]
+	"source_categories": ["virtualization"]
 }, {
     "source_table": "Article",
 	"source_name": "Tech Republic Cloud",
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/cloud/",
 	"source_content": "text",
-	"source_categories": ["Digital Cloud"]
+	"source_categories": ["cloud"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Gadgets",
+	"source_url": "https://www.digitaltrends.com/cool-tech/feed/",
+	"source_content": "text",
+	"source_categories": ["gadgets"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Mobile",
+	"source_url": "https://www.digitaltrends.com/mobile/feed/",
+	"source_content": "text",
+	"source_categories": ["mobile"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Gaming",
+	"source_url": "https://www.digitaltrends.com/gaming/feed/",
+	"source_content": "text",
+	"source_categories": ["gaming"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Future",
+	"source_url": "https://www.digitaltrends.com/cool-tech/feed/",
+	"source_content": "text",
+	"source_categories": ["future"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Home",
+	"source_url": "https://www.digitaltrends.com/home/feed/",
+	"source_content": "text",
+	"source_categories": ["gadgets"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Wearables",
+	"source_url": "https://www.digitaltrends.com/wearables/feed/",
+	"source_content": "text",
+	"source_categories": ["gadgets"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends VR",
+	"source_url": "https://www.digitaltrends.com/virtual-reality/feed/",
+	"source_content": "text",
+	"source_categories": ["vr"]
+}, {
+    "source_table": "Article",
+	"source_name": "Digital Trends Web",
+	"source_url": "https://www.digitaltrends.com/web/feed/",
+	"source_content": "text",
+	"source_categories": ["internet"]
 }]
