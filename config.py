@@ -147,4 +147,10 @@ sources = [{
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/virtualization/",
 	"source_content": "text",
 	"source_categories": ["Digital Virtualization"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Cloud",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/cloud/",
+	"source_content": "text",
+	"source_categories": ["Digital Cloud"]
 }]
