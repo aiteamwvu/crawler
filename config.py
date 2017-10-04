@@ -99,4 +99,10 @@ sources = [{
 	"source_url": "https://9to5google.com/feed/",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Mac Rumors",
+	"source_url": "http://feeds.macrumors.com/MacRumors-All",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
