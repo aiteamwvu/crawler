@@ -45,4 +45,10 @@ sources = [{
 	"source_url": "http://rss.slashdot.org/Slashdot/slashdotDevelopers",
 	"source_content": "text",
 	"source_categories": ["developer"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Radar Internet",
+	"source_url": "http://www.techradar.com/rss/news/internet",
+	"source_content": "text",
+	"source_categories": ["Internet"]
 }]
