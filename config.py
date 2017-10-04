@@ -105,4 +105,10 @@ sources = [{
 	"source_url": "http://feeds.macrumors.com/MacRumors-All",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "ZDNet",
+	"source_url": "http://www.zdnet.com/videos/rss.xml",
+	"source_content": "videos",
+	"source_categories": ["general"]
 }]
