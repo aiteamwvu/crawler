@@ -69,4 +69,16 @@ sources = [{
 	"source_url": "http://www.wsj.com/xml/rss/3_7455.xml",
 	"source_content": "text",
 	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "NYT Personal Tech",
+	"source_url": "http://rss.nytimes.com/services/xml/rss/nyt/PersonalTech.xml",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "NYT General Tech",
+	"source_url": "http://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
