@@ -23,6 +23,18 @@ sources = [{
 	"source_categories": ["gadgets"]
 }, {
     "source_table": "Article",
+	"source_name": "Wired Science",
+	"source_url": "https://www.wired.com/feed/category/science/latest/rss",
+	"source_content": "text",
+	"source_categories": ["science"]
+}, {
+    "source_table": "Article",
+	"source_name": "The Verge",
+	"source_url": "https://www.theverge.com/rss/index.xml",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
 	"source_name": "Tech Radar Software",
 	"source_url": "http://www.techradar.com/rss/news/software",
 	"source_content": "text",
@@ -207,4 +219,82 @@ sources = [{
 	"source_url": "https://www.digitaltrends.com/web/feed/",
 	"source_content": "text",
 	"source_categories": ["internet"]
+}, {
+    "source_table": "Article",
+	"source_name": "VentureBeat",
+	"source_url": "http://feeds.feedburner.com/venturebeat/SZYF",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "VentureBeat",
+	"source_url": "http://feeds.feedburner.com/venturebeat/SZYF",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Mashable",
+	"source_url": "http://feeds.mashable.com/Mashable",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "MIT Artificial Intelligence",
+	"source_url": "http://news.mit.edu/rss/topic/artificial-intelligence2",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "MIT Robotics",
+	"source_url": "http://news.mit.edu/rss/topic/robotics",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "Science Daily Artificial Intelligence",
+	"source_url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "Science Daily Artificial Intelligence",
+	"source_url": "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "ACM Artificial Intelligence",
+	"source_url": "https://cacm.acm.org/browse-by-subject/artificial-intelligence.rss",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "New Scientist",
+	"source_url": "http://feeds.newscientist.com/tech",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "InfoQ",
+	"source_url": "https://www.infoq.com/feed",
+	"source_content": "text",
+	"source_categories": ["general"]
+}, {
+    "source_table": "Article",
+	"source_name": "Bigdata Made Simple AI",
+	"source_url": "http://bigdata-madesimple.com/category/tech-and-tools/artificial-intelligence/feed/",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "Bigdata Made Simple AI",
+	"source_url": "http://bigdata-madesimple.com/category/tech-and-tools/artificial-intelligence/feed/",
+	"source_content": "text",
+	"source_categories": ["ai"]
+}, {
+    "source_table": "Article",
+	"source_name": "IoT for All",
+	"source_url": "https://www.iotforall.com/category/tech/feed/",
+	"source_content": "text",
+	"source_categories": ["iot"]
 }]
