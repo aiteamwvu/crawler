@@ -233,12 +233,6 @@ sources = [{
 	"source_categories": ["general"]
 }, {
     "source_table": "Article",
-	"source_name": "Mashable",
-	"source_url": "http://feeds.mashable.com/Mashable",
-	"source_content": "text",
-	"source_categories": ["general"]
-}, {
-    "source_table": "Article",
 	"source_name": "MIT Artificial Intelligence",
 	"source_url": "http://news.mit.edu/rss/topic/artificial-intelligence2",
 	"source_content": "text",
