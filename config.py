@@ -57,4 +57,10 @@ sources = [{
 	"source_url": "http://www.techradar.com/rss/news/mobile-computing",
 	"source_content": "text",
 	"source_categories": ["Mobile Computing"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Advisor",
+	"source_url": "http://www.techadvisor.co.uk/feature/rss",
+	"source_content": "text",
+	"source_categories": ["general"]
 }]
