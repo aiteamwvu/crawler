@@ -117,4 +117,34 @@ sources = [{
 	"source_url": "https://www.techrepublic.com/rssfeeds/topic/artificial-intelligence/",
 	"source_content": "text",
 	"source_categories": ["Artificial Intelligence"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Big Data",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/big-data/",
+	"source_content": "text",
+	"source_categories": ["Big Data"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Digital Transformation",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/digital-transformation/",
+	"source_content": "text",
+	"source_categories": ["Digital Transformation"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic E-Commerce",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/e-commerce/",
+	"source_content": "text",
+	"source_categories": ["Digital E-Commerce"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Internet of Things",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/internet-of-things/",
+	"source_content": "text",
+	"source_categories": ["Digital Internet of Things"]
+}, {
+    "source_table": "Article",
+	"source_name": "Tech Republic Virtualization",
+	"source_url": "https://www.techrepublic.com/rssfeeds/topic/virtualization/",
+	"source_content": "text",
+	"source_categories": ["Digital Virtualization"]
 }]
