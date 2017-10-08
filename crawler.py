@@ -64,16 +64,16 @@ class Crawler:
 		try:
 			self.get_neo4j().run(statement=("CREATE (x:%s) SET x = {value}" % (table)), parameters={'value': value})
 			print("INSERTED")
-			labels = ["tags_term", "source_categories"]
-			for label in labels:
-				query = """
-				MATCH (f:%s {_id:"%s"})
-				UNWIND f.%s as value
-				MATCH (a) WHERE ANY(item IN a.%s WHERE item =~ value AND a._id <> "%s")
-				CREATE (f)-[:%s {%s: value}]->(a)
-				""" % (table, value["_id"], label, label, value["_id"], label.upper(), label)
-				self.get_neo4j().run(statement=query)
-				print("LINKED")
+			#labels = ["tags_term", "source_categories"]
+			#for label in labels:
+			#	query = """
+			#	MATCH (f:%s {_id:"%s"})
+			#	UNWIND f.%s as value
+			#	MATCH (a) WHERE ANY(item IN a.%s WHERE item =~ value AND a._id <> "%s")
+			#	CREATE (f)-[:%s {%s: value}]->(a)
+			#	""" % (table, value["_id"], label, label, value["_id"], label.upper(), label)
+			#	self.get_neo4j().run(statement=query)
+			#	print("LINKED")
 		except Exception as e:
 			if "already exists" not in str(e):
 				print(json.dumps(value, indent=4, sort_keys=True))
