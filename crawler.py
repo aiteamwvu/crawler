@@ -40,7 +40,7 @@ class Crawler:
 
 	def insert_all(self, value, table="Node"):
 		self.insert_mongo(value, table)
-		self.insert_neo4j(value, table)
+		#self.insert_neo4j(value, table)
 
 	def insert_neo4j(self, value, table="Node"):
 		labels = ["author_detail", "summary_detail", "title_detail", "subtitle_detail", "source"]
