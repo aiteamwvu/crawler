@@ -7,6 +7,14 @@ class Crawler:
 	conn_neo4j = None
 	debug = True
 
+	def __init__(self):
+		self.load_config()
+
+	def load_config(self):
+		for source in config.sources:
+			source["_id"] = source["source_url"]
+			self.get_mongo()["Sources"].save(source)
+
 	def get_neo4j(self):
 		if self.conn_neo4j:
 			return self.conn_neo4j.session()
@@ -20,7 +28,8 @@ class Crawler:
 		return self.conn_mongo
 
 	def extract(self, callback=None):
-		for source in config.sources:
+		sources = self.get_mongo()["Sources"].find()
+		for source in sources:
 			feed = feedparser.parse(source["source_url"])
 			for entry in feed["entries"]:
 				article = json.loads(json.dumps(entry, default=str))
