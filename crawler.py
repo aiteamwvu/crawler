@@ -1,4 +1,4 @@
-import json, time, feedparser, schedule, config, threading, pymongo
+import json, time, feedparser, schedule, config, threading, pymongo, requests
 from dateutil.parser import parse
 from neo4j.v1 import GraphDatabase, basic_auth
 
@@ -46,6 +46,11 @@ class Crawler:
 
 	def extract_and_save(self):
 		self.extract(self.insert_all)
+		try:
+			url = 'https://aiwvu.ml:5005/'
+			r = requests.get(url)
+		except:
+			pass
 
 	def insert_all(self, value, table="Node"):
 		self.insert_mongo(value, table)
