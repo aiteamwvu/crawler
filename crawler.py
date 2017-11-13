@@ -47,8 +47,10 @@ class Crawler:
 	def extract_and_save(self):
 		self.extract(self.insert_all)
 		try:
+			print("Calling endpoint")
 			url = 'https://aiwvu.ml:5005/'
 			r = requests.get(url)
+			print("Endpoint called")
 		except:
 			pass
 
